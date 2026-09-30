@@ -1,0 +1,16 @@
+services:
+  web-personalizada:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apache-web-personalizada
+    ports:
+      - "8000:80"
+    restart: always
+
+  web-oficial:
+    image: httpd:alpine
+    container_name: apache-web-oficial
+    ports:
+      - "8001:80"
+    restart: always
