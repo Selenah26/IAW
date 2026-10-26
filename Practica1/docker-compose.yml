@@ -1,1 +1,20 @@
+services:
+  web:
+    build: .
+    container_name: nimbusdocs
+    ports:
+      - "8094:8093"
+    volumes:
+      - ./www:/var/www
 
+  nginx:
+    image: nginx:stable
+    container_name: nimbus-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certificados:/etc/nginx/certs:ro
+    depends_on:
+      - web
