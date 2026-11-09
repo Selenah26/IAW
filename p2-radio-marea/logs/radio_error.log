@@ -1,0 +1,3 @@
+2026/11/09 15:06:12 [error] 33#33: *6 directory index of "/var/www/radio/" is forbidden, client: 172.24.0.3, server: radio.iaw.local, request: "GET / HTTP/1.1", host: "radio.iaw.local"
+2026/11/09 15:06:12 [error] 34#34: *7 directory index of "/var/www/radio/" is forbidden, client: 172.24.0.3, server: radio.iaw.local, request: "GET / HTTP/1.1", host: "radio.iaw.local"
+2026/11/09 15:06:12 [error] 35#35: *8 directory index of "/var/www/radio/" is forbidden, client: 172.24.0.3, server: radio.iaw.local, request: "GET / HTTP/1.1", host: "radio.iaw.local"
