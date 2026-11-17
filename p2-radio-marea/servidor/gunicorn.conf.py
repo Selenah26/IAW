@@ -6,4 +6,4 @@ errorlog = "/var/log/radio/gunicorn-errores.log"
 # ✍️ B3 · ¿Cuántos workers? El servidor de producción de Radio Marea tiene 3 CPU (no las de tu ordenador).
 #         Usa la regla de la UD5 y escribe el número (con un comentario que diga de dónde sale).
 workers = 7 
-#es 2 pur el numero de nucleos +1
+#Es 2 por el numero de nucleos +1
